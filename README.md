@@ -2,7 +2,7 @@
 
 Production-grade AI patterns in React using free and local models.
 
-This repository is a collection of mini-projects that demonstrate how to design, build, and scale AI-powered user experiences—not just call APIs.
+This repository is a collection of mini-projects that demonstrate how to design, build, and scale AI-powered user experiences and not just call APIs.
 
 ---
 
