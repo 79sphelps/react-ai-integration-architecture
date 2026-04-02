@@ -17,5 +17,5 @@ export function TemperatureSlider({ temperature, setTemperature }: any) {
         Lower = deterministic, Higher = creative
       </div>
     </div>
-  )
+  );
 }

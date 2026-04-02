@@ -1,11 +1,9 @@
-import React from 'react'
+import React from "react";
 
 export function PromptEditor({ template, setTemplate }: any) {
   return (
     <div>
-      <label className="block text-sm font-medium mb-1">
-        Prompt Template
-      </label>
+      <label className="block text-sm font-medium mb-1">Prompt Template</label>
       <textarea
         aria-label="Prompt template"
         value={template}
@@ -14,5 +12,5 @@ export function PromptEditor({ template, setTemplate }: any) {
         placeholder="Write a {tone} summary about {topic}"
       />
     </div>
-  )
+  );
 }

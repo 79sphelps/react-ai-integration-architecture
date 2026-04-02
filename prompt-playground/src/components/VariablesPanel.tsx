@@ -1,15 +1,15 @@
-import React from 'react'
+import React from "react";
 
 export function VariablesPanel({ variables, setVariables }: any) {
   const update = (key: string, value: string) => {
-    setVariables((prev: any) => ({ ...prev, [key]: value }))
-  }
+    setVariables((prev: any) => ({ ...prev, [key]: value }));
+  };
 
   const addVariable = () => {
-    const key = prompt('Enter variable name')
-    if (!key) return
-    update(key, '')
-  }
+    const key = prompt("Enter variable name");
+    if (!key) return;
+    update(key, "");
+  };
 
   return (
     <div>
@@ -38,5 +38,5 @@ export function VariablesPanel({ variables, setVariables }: any) {
         </div>
       ))}
     </div>
-  )
+  );
 }

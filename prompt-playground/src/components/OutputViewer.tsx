@@ -6,25 +6,25 @@ export function OutputViewer({ output, validation, loading }: any) {
         {validation && (
           <span
             className={`text-sm ${
-              validation.valid ? 'text-green-600' : 'text-red-600'
+              validation.valid ? "text-green-600" : "text-red-600"
             }`}
           >
-            {validation.valid ? 'Valid JSON' : validation.error}
+            {validation.valid ? "Valid JSON" : validation.error}
           </span>
         )}
       </div>
 
       <pre className="flex-1 overflow-auto text-sm bg-gray-50 p-3 rounded">
-        {loading ? 'Generating...' : format(output)}
+        {loading ? "Generating..." : format(output)}
       </pre>
     </div>
-  )
+  );
 }
 
 function format(str: string) {
   try {
-    return JSON.stringify(JSON.parse(str), null, 2)
+    return JSON.stringify(JSON.parse(str), null, 2);
   } catch {
-    return str
+    return str;
   }
 }

@@ -5,11 +5,11 @@ import {
   TemperatureSlider,
   JsonSchemaEditor,
   RunButton,
-} from './components/index'
-import { usePromptPlayground } from './hooks/usePromptPlayground'
+} from "./components/index";
+import { usePromptPlayground } from "./hooks/usePromptPlayground";
 
 export default function PromptPlayground() {
-  const state = usePromptPlayground()
+  const state = usePromptPlayground();
 
   return (
     <div className="h-screen grid grid-cols-2 gap-6 p-6 bg-gray-50">
@@ -23,5 +23,5 @@ export default function PromptPlayground() {
 
       <OutputViewer {...state} />
     </div>
-  )
+  );
 }
