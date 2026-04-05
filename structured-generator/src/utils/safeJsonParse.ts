@@ -1,0 +1,7 @@
+export function safeJsonParse(str: string) {
+  try {
+    return JSON.parse(str);
+  } catch {
+    return null;
+  }
+}

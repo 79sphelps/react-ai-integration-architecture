@@ -1,5 +1,5 @@
 {
-  "name": "ai-copilot",
+  "name": "structured-generator",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,8 +14,7 @@
   },
   "dependencies": {
     "react": "^19.2.4",
-    "react-dom": "^19.2.4",
-    "zustand": "^5.0.12"
+    "react-dom": "^19.2.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",
@@ -39,6 +38,7 @@
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.57.0",
     "vite": "^8.0.1",
-    "vitest": "^4.1.2"
+    "vitest": "^4.1.2",
+    "zod": "^4.3.6"
   }
 }
