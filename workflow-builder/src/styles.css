@@ -1,0 +1,14 @@
+select {
+  border: 1px solid #ccc;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+button {
+  transition: all 0.15s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  opacity: 0.9;
+}

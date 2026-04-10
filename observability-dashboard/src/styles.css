@@ -10,3 +10,11 @@ body {
   background: #f9fafb;
   color: #111827;
 }
+
+button {
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
